@@ -1,0 +1,13 @@
+:root{--paper:#FBF8F1;--ink:#1A1814;--stone:#77706A;--gold:#9A7735;--rule:#E3D4AE}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.6 "EB Garamond",Georgia,serif}
+main{max-width:680px;margin:0 auto;padding:48px 20px 64px}
+h1{font:400 44px/1.1 "Bodoni Moda",Didot,Georgia,serif;margin:0 0 6px;text-align:center}
+.sub{text-align:center;color:var(--stone);font-style:italic;margin:0}
+hr{border:0;height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent);margin:28px 0}
+h2{font:400 24px/1.2 "Bodoni Moda",Didot,Georgia,serif;margin:32px 0 6px}
+a{color:var(--gold)}
+nav{text-align:center;font-variant:small-caps;letter-spacing:.12em;font-size:15px;margin-bottom:36px}
+nav a{margin:0 12px;text-decoration:none}
+ul{padding-left:22px}
+footer{color:var(--stone);text-align:center;font-size:15px;margin-top:48px}
